@@ -9,7 +9,7 @@ from sklearn.linear_model import LinearRegression
 st.title("Sales Prediction App")
 
 # Step 1: Load the model
-model_file = 'model-reg-xxx.pkl'
+model_file = 'model-reg-67130700339.pkl'
 try:
     if not os.path.exists(model_file):
         raise FileNotFoundError(f"Model file '{model_file}' not found in the current directory.")
